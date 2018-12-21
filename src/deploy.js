@@ -33,7 +33,7 @@ app.get('/routes', routes.__allRoutes);
 app.get('/', routes.index.index);
 app.get('/favicon.ico', routes.index.favicon);
 app.post('/github', routes.index.github);
-app.post('/bitbucket', routes.index.bitbucket);
+app.post('/phycore', routes.index.phycore);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log("ci server listening on port " + app.get('port'));
