@@ -1,0 +1,17 @@
+{
+  "name": "express-cd",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node express-cd.js"
+  },
+  "dependencies": {
+    "body-parser": "1.13.2",
+    "errorhandler": "^1.4.1",
+    "express": "4.13.1",
+    "morgan": "^1.6.1",
+    "netmask": "0.0.2",
+    "request": "^2.61.0",
+    "underscore": "^1.8.3"
+  }
+}
