@@ -33,7 +33,7 @@ Private = {
 		]
 	},
 	repository: {
-		branch: 'refs/heads/develop'
+		branch: 'feature/newApi'
 	},
 	slackbot: {
 		url:"https://hooks.slack.com/services/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"

@@ -27,7 +27,7 @@ exports.phycore = function(req, res){
   if (branch === config.repository.branch && action === 'commit'){
       myExec(config.action.phyCore);
       res.writeHead(200);
-      var data = {form: action + " from " + author + " on " + branch};
+      var data = {text: action + " from " + author + " on " + branch};
       request.post(slackurl, data , function (err, res, body) {
         if (err) {
           console.log(err);
