@@ -36,7 +36,7 @@ Private = {
 		branch: 'develop'
 	},
 	slackbot: {
-		url:"https://hooks.slack.com/services/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"
+		url:"https://hooks.slack.com/services/"
 	},
 	action: {
 		phyCore: __dirname + "/phycore.sh",
